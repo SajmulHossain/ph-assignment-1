@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+
+/* header section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* banner section start */
+.banner {
+    background-image: url('/assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    max-width: 998px;
+    height: 582px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-btn {
+    background-color: black;
+    color: white;
+}
+/* banner section end */
+/* header section end */
+
+/* main section start */
+
+/* web-dev-section start */
+.web-development {
+    margin-top: 60px;
+    max-width: 946px;
+    margin: 100px auto;
+}
+
+.web-dev-desc {
+    text-align: center;
+    padding: 0 47px;
+}
+
+.web-dev-desc h3 {
+    margin-bottom: 30px;
+}
+
+.web-dev-container {
+    margin-top: 50px;
+}
+
+.web-dev-1,
+.web-dev-2 {
+    display: flex;
+    padding: 48px;
+}
+
+.web-dev-1 {
+    justify-content: space-between;
+}
+
+.web-dev-2 {
+    gap: 28px;
+}
+
+.web-dev-1-desc,
+.web-dev-2-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 477px;
+}
+
+.web-dev-2-img {
+    width: 240px;
+}
+
+.learn-btn {
+    height: 48px;
+    width: 150px;
+    font-weight: 600px;
+    background-color: transparent;
+}
+/* web-dev-section end */
+
+/* inspiration section start */
+.inspire {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.inspire-desc {
+    width: 852px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.yt-video {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    height: 514px;
+}
+
+.yt-video iframe {
+    width: 100%;
+    border-radius: 16px;
+    height: 100%;
+}
+/* inspiration section end */
+
+/* main section end */
