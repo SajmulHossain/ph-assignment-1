@@ -18,8 +18,8 @@ img {
     border: none;
     padding: 17px 24px;
     border-radius: 8px;
-    border: 2px solid black;
-    font-weight: 700;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
     font-size: 18px;
     background-color: transparent;
 }
@@ -30,9 +30,12 @@ nav {
     display: flex;
     justify-content: space-between;
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 24px auto;
     align-items: center;
-    margin-top: 20px;
+}
+
+.contact-btn {
+    color: #0D1321;
 }
 
 nav h3 {
@@ -50,18 +53,34 @@ nav h3 {
 }
 
 .hero-section {
-    max-width: 998px;
+    width: 998px;
     height: 582px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
+.hero-section h2 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.hero-section p {
+    opacity: 70%;
+}
 .hero-btn {
     background-color: black;
+}
+
+.hero-btn a {
+    text-decoration: none;
     color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
 /* banner section end */
 /* header section end */
@@ -71,8 +90,9 @@ nav h3 {
 /* web-dev-section start */
 .web-development {
     margin-top: 60px;
-    max-width: 946px;
+    max-width: 1140px;
     margin: 100px auto;
+    padding: 80px 97px;
 }
 
 .web-dev-desc {
@@ -81,11 +101,28 @@ nav h3 {
 }
 
 .web-dev-desc h3 {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.web-dev-desc p {
+    opacity: 70%;
 }
 
 .web-dev-container {
     margin-top: 50px;
+}
+
+.web-dev-container h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.web-dev-container p {
+    opacity: 70%;
+    margin-bottom: 32px;
 }
 
 .web-dev-1,
@@ -104,10 +141,6 @@ nav h3 {
 
 .web-dev-1-desc,
 .web-dev-2-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
     width: 477px;
 }
 
@@ -119,7 +152,10 @@ nav h3 {
     height: 48px;
     width: 150px;
     font-weight: 600px;
+    font-size: 20px;
+    padding: 12px 20px;
     background-color: transparent;
+    color: rgb(13, 19, 33);
 }
 /* web-dev-section end */
 
@@ -139,11 +175,20 @@ nav h3 {
     margin-bottom: 80px;
 }
 
+.inspire-desc h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspire-desc p {
+    opacity: 70%;
+}
+
 .yt-video {
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    height: 514px;
+    height: 614px;
 }
 
 .yt-video iframe {
@@ -166,27 +211,45 @@ nav h3 {
 }
 
 .target-desc h3 {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-desc p {
+    opacity: 70%;
 }
 
 .target-skill-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 48px;
     gap: 24px;
+}
+
+.target-skill-container h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.target-skill-container p {
+    opacity: 70%;
+    margin-bottom: 24px;
 }
 
 .skill-img {
     width: 56px;
-    height: 56x;
+    height: 56px;
+    margin-bottom: 24px;
 }
 
 .html,
 .css,
 .js {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 8px; */
     padding: 40px;
 }
 
@@ -202,8 +265,12 @@ nav h3 {
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-.skill-container a {
+.html a,
+.css a,
+.js a {
     color: black;
+    font-weight: 700;
+    font-size: 16px;
 }
 /* target section end */
 
@@ -220,7 +287,13 @@ nav h3 {
 }
 
 .next-target-desc h3 {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.next-target-desc p {
+    opacity: 70%;
 }
 
 .next-target-skills-container {
@@ -228,6 +301,14 @@ nav h3 {
     flex-direction: column;
     gap: 24px;
     margin-top: 30px;
+}
+.next-target-skills-container h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.next-target-skills-container p {
+    opacity: 70%;
 }
 
 .react,
@@ -253,6 +334,8 @@ nav h3 {
 
 .next-target-skills-container a {
     color: black;
+    font-weight: 700;
+    font-size: 16px;
 }
 /* next target section end */
 
@@ -260,7 +343,6 @@ nav h3 {
 .support {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     justify-content: center;
     align-items: center;
     max-width: 1140px;
@@ -275,6 +357,16 @@ nav h3 {
     background-position: center;
     background-blend-mode: overlay;
     color: white;
+}
+
+.support h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.support p {
+    opacity: 70%;
+    margin-bottom: 50px;
 }
 
 .support div {
@@ -296,7 +388,32 @@ nav h3 {
     outline: none;
 }
 
+.support-btn {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 /* support section end */
 
 /* main section end */
+
+/* footer section start */
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 30px auto;
+    padding: 32px 0;
+}
+
+.footer-desc h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 24px;
+}
+/* footer section end */
