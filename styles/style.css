@@ -153,4 +153,58 @@ nav h3 {
 }
 /* inspiration section end */
 
+/* target section start */
+.target {
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+.target-desc {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.target-desc h3 {
+    margin-bottom: 30px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 24px;
+}
+
+.skill-img {
+    width: 56px;
+    height: 56x;
+}
+
+.html,
+.css,
+.js {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 40px;
+}
+
+.html {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    background-color: rgba(0, 76, 232, 0.05) ;
+}
+
+.js {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.skill-container a {
+    color: black;
+}
+/* target section end */
+
 /* main section end */
