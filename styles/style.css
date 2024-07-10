@@ -45,7 +45,7 @@ nav h3 {
 
 /* banner section start */
 .banner {
-    background-image: url('assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -349,7 +349,7 @@ nav h3 {
     border-radius: 16px;
     padding: 48px 64px;
     background-color: black;
-    background-image: url('assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
